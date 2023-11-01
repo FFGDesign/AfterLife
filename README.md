@@ -15,7 +15,7 @@ layout:
   outline:
     visible: true
   pagination:
-    visible: true
+    visible: false
 ---
 
 # Strona główna
@@ -23,3 +23,18 @@ layout:
 Nie wiesz co gdzie i jak? To nie ważne! \
 Wystarczy że zapoznasz się z zawartością tej strony  a poznasz wszystkie tajniki naszego serwera.
 
+
+
+{% content-ref url="wszystko-co-musisz-wiedziec.md" %}
+[wszystko-co-musisz-wiedziec.md](wszystko-co-musisz-wiedziec.md)
+{% endcontent-ref %}
+
+{% content-ref url="klawiszologia.md" %}
+[klawiszologia.md](klawiszologia.md)
+{% endcontent-ref %}
+
+> Lista zmian
+
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
+{% endcontent-ref %}
